@@ -1,0 +1,21 @@
+.filter-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+}
+.filter-container div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter-container label {
+  color: white;
+  display: flex;
+  flex: 2;
+}
+.filter-container select {
+  display: flex;
+  padding: 0.5rem 3rem;
+  border-radius: 8px;
+}
